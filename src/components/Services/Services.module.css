@@ -1,0 +1,40 @@
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: var(--color-text-secondary);
+  font-size: 1.0625rem;
+  margin-bottom: 3rem;
+  max-width: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.icon {
+  color: var(--color-accent);
+  margin-bottom: 1.25rem;
+  padding: 0.625rem;
+  background: var(--gradient-surface);
+  border-radius: var(--radius-sm);
+  width: fit-content;
+}
+
+.cardTitle {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin-bottom: 0.625rem;
+}
+
+.cardDesc {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}

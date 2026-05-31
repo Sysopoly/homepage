@@ -1,0 +1,9 @@
+.section {
+  padding: var(--section-padding) 2rem;
+  position: relative;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}

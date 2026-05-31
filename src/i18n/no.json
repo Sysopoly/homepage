@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "services": "Tjenester",
+    "approach": "Tilnærming",
+    "portfolio": "Portefølje",
+    "technologies": "Teknologier",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "Fullstack-utvikling. Ren arkitektur. Ingen snarveier.",
+    "subheadline": "Vi designer, bygger og drifter programvaresystemer — fra mobilapper til backend-infrastruktur."
+  },
+  "services": {
+    "title": "Tjenester",
+    "architecture": {
+      "title": "Programvarearkitektur",
+      "description": "Systemdesign, domenemodellering og teknisk strategi for skalerbare applikasjoner."
+    },
+    "fullstack": {
+      "title": "Fullstack-utvikling",
+      "description": "Ende-til-ende-implementering med Go, Flutter, React og PostgreSQL."
+    },
+    "infrastructure": {
+      "title": "Infrastruktur & DevOps",
+      "description": "Containeriserte utrullinger, CI/CD-pipelines og infrastruktur-som-kode."
+    },
+    "advisory": {
+      "title": "Teknisk rådgivning",
+      "description": "Kodegjennomganger, arkitekturrevisjoner og veiledning innen teknologivalg."
+    }
+  },
+  "approach": {
+    "title": "Tilnærming",
+    "scalable": {
+      "title": "Skalerbart",
+      "description": "Bygget for å vokse. Hver beslutning tar hensyn til fremtidig belastning og teamutvidelse."
+    },
+    "maintainable": {
+      "title": "Vedlikeholdbart",
+      "description": "Ren kode, klare grensesnitt, omfattende tester. Enkelt å utvide, trygt å endre."
+    },
+    "flexible": {
+      "title": "Fleksibelt",
+      "description": "Ingen leverandørlåsing. Åpne standarder, portabel infrastruktur, modulært design."
+    }
+  },
+  "portfolio": {
+    "title": "Portefølje",
+    "empty": "Prosjekter kommer snart.",
+    "subtitle": "Utvalgte arbeider vil bli vist her."
+  },
+  "technologies": {
+    "title": "Teknologier"
+  },
+  "contact": {
+    "title": "La oss bygge noe sammen",
+    "description": "Har du en idé, et problem, eller bare lyst til å snakke tech? Vi hører gjerne fra deg.",
+    "email": "morten@sysopoly.com"
+  },
+  "footer": {
+    "based": "Basert i Norge",
+    "copyright": "Sysopoly"
+  }
+}

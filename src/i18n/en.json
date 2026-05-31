@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "services": "Services",
+    "approach": "Approach",
+    "portfolio": "Portfolio",
+    "technologies": "Technologies",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Full-stack engineering. Clean architecture. No shortcuts.",
+    "subheadline": "We design, build, and operate software systems — from mobile apps to backend infrastructure."
+  },
+  "services": {
+    "title": "Services",
+    "architecture": {
+      "title": "Software Architecture",
+      "description": "System design, domain modeling, and technical strategy for scalable applications."
+    },
+    "fullstack": {
+      "title": "Full-Stack Development",
+      "description": "End-to-end implementation with Go, Flutter, React, and PostgreSQL."
+    },
+    "infrastructure": {
+      "title": "Infrastructure & DevOps",
+      "description": "Containerized deployments, CI/CD pipelines, and infrastructure-as-code."
+    },
+    "advisory": {
+      "title": "Technical Advisory",
+      "description": "Code reviews, architecture audits, and technology selection guidance."
+    }
+  },
+  "approach": {
+    "title": "Approach",
+    "scalable": {
+      "title": "Scalable",
+      "description": "Built to grow. Every decision considers future load and team expansion."
+    },
+    "maintainable": {
+      "title": "Maintainable",
+      "description": "Clean code, clear boundaries, comprehensive tests. Easy to extend, safe to change."
+    },
+    "flexible": {
+      "title": "Flexible",
+      "description": "No vendor lock-in. Open standards, portable infrastructure, modular design."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "empty": "Projects coming soon.",
+    "subtitle": "Selected work will be showcased here."
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "contact": {
+    "title": "Let's build something together",
+    "description": "Have an idea, a problem, or just want to talk tech? We'd love to hear from you.",
+    "email": "morten@sysopoly.com"
+  },
+  "footer": {
+    "based": "Based in Norway",
+    "copyright": "Sysopoly"
+  }
+}

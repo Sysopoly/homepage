@@ -1,0 +1,66 @@
+:root {
+  /* Colors - Light */
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
+  --color-text: #0f0f1a;
+  --color-text-secondary: #3d3d56;
+  --color-text-muted: #8b8ba3;
+  --color-accent: #6366f1;
+  --color-accent-hover: #4f46e5;
+  --color-accent-secondary: #06b6d4;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --color-glow: rgba(99, 102, 241, 0.15);
+  --color-glow-secondary: rgba(6, 182, 212, 0.12);
+  --gradient-accent: linear-gradient(135deg, #6366f1 0%, #06b6d4 50%, #10b981 100%);
+  --gradient-text: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+  --gradient-surface: linear-gradient(135deg, rgba(99, 102, 241, 0.03) 0%, rgba(6, 182, 212, 0.03) 100%);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+
+  /* Spacing */
+  --section-padding: clamp(5rem, 12vw, 10rem);
+  --container-max: 1200px;
+  --nav-height: 72px;
+
+  /* Borders */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Effects */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.08);
+  --shadow-glow: 0 0 40px var(--color-glow);
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 600ms;
+}
+
+[data-theme='dark'] {
+  --color-bg: #06060e;
+  --color-surface: #0d0d1a;
+  --color-surface-elevated: #13132a;
+  --color-text: #f0f0f8;
+  --color-text-secondary: #b4b4cc;
+  --color-text-muted: #5a5a7a;
+  --color-accent: #818cf8;
+  --color-accent-hover: #a5b4fc;
+  --color-accent-secondary: #22d3ee;
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-glow: rgba(129, 140, 248, 0.2);
+  --color-glow-secondary: rgba(34, 211, 238, 0.15);
+  --gradient-accent: linear-gradient(135deg, #818cf8 0%, #22d3ee 50%, #34d399 100%);
+  --gradient-text: linear-gradient(135deg, #818cf8 0%, #22d3ee 100%);
+  --gradient-surface: linear-gradient(135deg, rgba(129, 140, 248, 0.05) 0%, rgba(34, 211, 238, 0.05) 100%);
+  --shadow-glow: 0 0 60px var(--color-glow);
+}
